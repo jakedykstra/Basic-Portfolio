@@ -1,0 +1,12 @@
+.block {
+   border: 2px solid black;
+}
+
+/* img {
+   width: 20%;
+} */
+
+p { 
+   border: 3 px solid pink;
+   float: left;
+}

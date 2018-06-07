@@ -1,0 +1,122 @@
+body{
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   color:#777777;
+   width: 100%;
+}
+
+.container{
+   width: 960px;
+   margin: auto;
+}
+
+.header{
+   background-color: #ffffff;
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   border: 1px solid #cccccc;
+   border-bottom-color: darkslategray;
+   width: 100%;
+   float: left;
+   
+}
+
+header {
+   float: left;
+   padding: 20px 15px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   width: 165px;
+   font-size: 24px;
+   font-weight: 700;
+   text-align: center;
+   display: inline;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#navbar {
+   float: right;
+   padding-top: 20px; 
+   color: #777777;
+}
+
+ul, li {
+   list-style-type: none;
+   display: inline;
+ }
+
+.background {
+   float:left;
+   width: 100%;
+}
+
+.midsection{
+   border: 1px solid red;
+   background: url(../images/country-quilt-dark.png);
+   width: 100%;   
+   clear:both;
+}
+
+img {
+  max-width: 200px;
+  float: left;
+}
+
+#section {
+  padding: 40px 10px 15px 10px;
+  float:center;
+  border: .5px solid #666666;
+  margin: 35px auto 100px auto;
+  background-color: #ffffff;
+  height: 300px;}
+
+#aboutme {
+   font-size: 24px;
+   font-style: bold;
+   color:#4aaaa5;
+   padding: 0px 0px 25px 5px;
+
+}
+
+.me{
+   float:left;
+   max-width: 150px;
+   display: inline;
+}
+
+
+p{
+   /* float:left; */
+   overflow: auto;
+   display: inline;
+   word-wrap: break-word;
+   font-size: 18px;
+   line-height: 24px;
+}
+
+footer{
+   float:left;
+   background-color:#666666;
+   color: lightgray;
+   text-align: center;
+   font-size: 14px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   border-top: 3px solid #4aaaa5;
+   width: 100%;
+}
+
+#Hangman {
+  position: absolute;
+}
+
+#RPG {
+  position: absolute;
+  margin-left: 250px;
+}

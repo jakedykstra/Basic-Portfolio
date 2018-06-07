@@ -5,30 +5,47 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>Jake Dykstra Portfolio</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-   <script src="main.js"></script>
+   <link rel="stylesheet" href="assets/css/reset.css">
+   <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
-   <header>
-      <h1>Jake Dykstra</h1>
-   </header>
-
-   <nav>
-      <li>About</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
-   </nav>
-
-   <Section>
-      <h1>About Me</h1>
-      <img src="#" alt="Jake Dykstra Photograph">
-      <p>
-         Never being one to settle, I was determined to find where I would make my impact on the world. Was that in advertising? It appreared not. But isn't that exactly what I majored in for college? It sure was. Where does that leave me? Right where I want to be. 
-
-         Finding the MERNing. Yes... the MEAN stack would have worked better for my not so clever wordplay. More excited than ever about where my life is taking me, I've finally taken a shot on what it is I really want to do.  
-      </p>
-   </Section>
+   <div class="header clearfix">
+      <div class="container">
+         
+         <header id="name">
+            Jake Dykstra
+         </header>
+      
+         <nav id="navbar">
+            <li>
+               <ul><a href="#">About |</a></ul>
+               <ul><a href="#">Portfolio |</a></ul>
+               <ul><a href="#">Contact</a></ul>
+            </li>
+         </nav>
+      
+      </div>   
+   </div>
    
+   <!-- <img src="assets\images\country-quilt-dark.png" class="background"> -->
+
+   <div class=midsection>
+
+            <section class="container" id="section">
+               <div id="aboutme">
+                  <h1>About Me</h1>
+                  <hr>
+               </div>
+               <img src="assets/images/Jake.jpg" alt="Jake Dykstra Photograph" class="me">
+               <p>
+                  Never being one to settle, I was determined to find where I would make my impact on the world. Was that in advertising? It appreared not. But isn't that exactly what I majored in for college? It sure was. Where does that leave me? Right where I want to be. 
+               </p> <br> <br>
+               <p>
+                  Finding the MERNing. Yes... the MEAN stack would have worked better for my not so clever wordplay. More excited than ever about where my life is taking me, I've finally taken a shot on what it is I really want to do. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo sequi veniam ea enim nesciunt doloremque delectus sint consectetur qui magnam. Recusandae, hic quidem officia, asperiores sit libero sapiente totam eum. 
+               </p>
+            </section>
+   </div>
+
    <footer>Copyright &copy;</footer>
 </body>
 </html>
