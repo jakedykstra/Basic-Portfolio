@@ -4,100 +4,106 @@ body{
    color:#777777;
    width: 100%;
 }
+/* 
+.width-control{
+  width: 960px;
+  margin: auto;
+} */
 
-.container{
-   width: 960px;
-   margin: auto;
+#themed{
+  background-color: #ffffff!important;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  border: 1px solid #cccccc;
+  border-bottom-color: darkslategray;
+  padding: 0px;
+}
+.container {
+  max-width: 960px;
+  padding: 0px;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
 }
 
-.header{
-   background-color: #ffffff;
-   font-family: Georgia, 'Times New Roman', Times, serif; 
-   border: 1px solid #cccccc;
-   border-bottom-color: darkslategray;
-   width: 100%;
-   float: left;
-   
-}
-
-header {
-   float: left;
-   padding: 20px 15px;
-   background-color: #4aaaa5;
-   color: #ffffff;
-   width: 165px;
-   font-size: 24px;
-   font-weight: 700;
-   text-align: center;
-   display: inline;
-}
-
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}
-
-#navbar {
-   float: right;
-   padding-top: 20px; 
-   color: #777777;
-}
-
-ul, li {
-   list-style-type: none;
-   display: inline;
- }
-
-.background {
-   float:left;
-   width: 100%;
+#jake {
+  padding: 18px 10px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .midsection{
    border: 1px solid red;
    background: url(../images/country-quilt-dark.png);
-   width: 100%;   
-   clear:both;
-}
-
-img {
-  max-width: 200px;
-  float: left;
+   margin-left: -33.33%;
+   margin-right: -33.33%; 
 }
 
 #section {
-  padding: 40px 10px 15px 10px;
+  padding: 20px 10px 15px 10px;
   float:center;
   border: .5px solid #666666;
+  width: 960px;
   margin: 35px auto 100px auto;
   background-color: #ffffff;
-  height: 300px;}
+  overflow: auto;
+}
 
 #aboutme {
    font-size: 24px;
    font-style: bold;
    color:#4aaaa5;
-   padding: 0px 0px 25px 5px;
+   padding: 0px 0px 10px 5px;
 
 }
 
 .me{
-   float:left;
-   max-width: 150px;
+   float: left;
+   max-width: 170px;
    display: inline;
+   margin-right: 10px;
 }
 
 
 p{
    /* float:left; */
-   overflow: auto;
    display: inline;
    word-wrap: break-word;
    font-size: 18px;
    line-height: 24px;
+   padding-bottom: 10px;
+}
+#contained {
+  background-color: #4aaaa5;
+  position: absolute; 
+  top: 150px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.inputs {
+  width: 98%;
+  margin: auto;
+  padding: 0px 5px;
+}
+
+button {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 2px 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+form{
+  margin-left: 10px;
+}
+
+#msg {
+  height: 150px;
 }
 
 footer{
@@ -112,11 +118,4 @@ footer{
    width: 100%;
 }
 
-#Hangman {
-  position: absolute;
-}
 
-#RPG {
-  position: absolute;
-  margin-left: 250px;
-}
